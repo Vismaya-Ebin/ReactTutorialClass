@@ -15,7 +15,7 @@ export function AddColor({ clr }) {
 }
 
 export function ColorBox() {
-  // const colorList = ["orange", "blue", "green", "yellow"];
+  
   const [colorList, updatedColorList] = useState( ["orange", "blue", "green", "yellow"]);
   const [intialColor, changedColor] = useState("White");
   const styles = {
